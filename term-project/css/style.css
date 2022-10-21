@@ -44,35 +44,31 @@
     flex-wrap: wrap;
 }
 
-.inner
-{
-    background-color: white;
-    width: 100vw;
-}
-
-.background1
+.inner-background1
 {
     height: 500px;
     margin-bottom: 15px;
     background-size: cover;
+    background-color: white;
+    width: 100vw;
 }
 
-.image1
+image
 {
-    background-image: url('images/atf-image.jpg');
+    background-image: url('..images/atf-image.jpg');
     background-size: cover;
 }
 
-.inner h2
+.inner-background1 h2
 {
     padding: 70px;
     text-transform: uppercase;
     font-size: 50px;
     margin-left: 70px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.inner p
+.inner-background1 p
 {
     margin-top: -50px;
     margin-left: 140px;
@@ -80,7 +76,7 @@
     color: bisque;
 }
 
-.inner a
+.inner-background1 a
 {
     background-color: black;
     color: white;
@@ -89,6 +85,17 @@
     text-decoration: none;
     font-size: 18px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .header2
 {
