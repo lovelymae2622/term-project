@@ -15,3 +15,15 @@
     list-style: none;
     display: inline-block;
 }
+
+.nav ul a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 1;
+    font-family: sans-serif;
+    font: bold;
+    color: black;
+    margin: 20px;
+}
