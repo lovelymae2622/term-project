@@ -66,6 +66,7 @@ image
     font-size: 50px;
     margin-left: 70px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .inner-background1 p
@@ -86,17 +87,6 @@ image
     font-size: 18px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .header2
 {
     display: flex;
@@ -105,7 +95,7 @@ image
     margin-top: 20px;
 }
 
-.inner1
+.inner-background2
 {
     background-color: white;
     width: 630px;
@@ -113,7 +103,7 @@ image
     transition: 0.3s;
 }
 
-.inner1 p
+.inner-background2 p
 {
     font-size: 20px;
     margin-left: 50px;
@@ -123,7 +113,7 @@ image
     text-transform: uppercase;
 }
 
-.inner1 a
+.inner-background2 a
 {
     margin-top: 40px;
     color: white;
@@ -134,14 +124,18 @@ image
     background-color: black;
 }
 
-.inner1:hover
-{}
+.inner-background2:hover{}
 
-.background2
+.inner-background2
 {
     height: 250px;
     margin: 20px;
     background-size: cover;
     box-shadow: 
     0 0 0 10px #C19A6B;
+}
+
+.image2
+{
+    background-image: url('');
 }
