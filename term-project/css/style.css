@@ -1,10 +1,5 @@
 /*Header1 & Navigation Bar*/
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 .nav
 {
@@ -39,37 +34,24 @@
 /*header*/
 .header
 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+
 }
 
-.inner-background1
+.image1
 {
-    height: 500px;
-    margin-bottom: 15px;
-    background-size: cover;
-    background-color: white;
-    width: 100vw;
+    background-image: url('../images/atf-image.jpg');
 }
 
-image
-{
-    background-image: url('..images/atf-image.jpg');
-    background-size: cover;
-}
-
-.inner-background1 h2
+.inner-header1 h2
 {
     padding: 70px;
     text-transform: uppercase;
     font-size: 50px;
     margin-left: 70px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.inner-background1 p
+.inner-header1 p
 {
     margin-top: -50px;
     margin-left: 140px;
@@ -77,7 +59,7 @@ image
     color: bisque;
 }
 
-.inner-background1 a
+.inner-header1 a
 {
     background-color: black;
     color: white;
@@ -87,6 +69,8 @@ image
     font-size: 18px;
 }
 
+.inner-header2:hover{}
+
 .header2
 {
     display: flex;
@@ -95,7 +79,7 @@ image
     margin-top: 20px;
 }
 
-.inner-background2
+.inner-header2
 {
     background-color: white;
     width: 630px;
@@ -103,7 +87,16 @@ image
     transition: 0.3s;
 }
 
-.inner-background2 p
+.inner-header2
+{
+    height: 250px;
+    margin: 20px;
+    background-size: cover;
+    box-shadow: 
+    0 0 0 10px #C19A6B;
+}
+
+.inner-header2 p
 {
     font-size: 20px;
     margin-left: 50px;
@@ -113,7 +106,7 @@ image
     text-transform: uppercase;
 }
 
-.inner-background2 a
+.inner-header2 a
 {
     margin-top: 40px;
     color: white;
@@ -124,18 +117,12 @@ image
     background-color: black;
 }
 
-.inner-background2:hover{}
-
-.inner-background2
-{
-    height: 250px;
-    margin: 20px;
-    background-size: cover;
-    box-shadow: 
-    0 0 0 10px #C19A6B;
-}
-
 .image2
 {
-    background-image: url('');
+    background-image: url('../images/merchandise1.jpg');
+}
+
+.image3
+{
+    background-image: url('../images/merchandise2.jpg');
 }
