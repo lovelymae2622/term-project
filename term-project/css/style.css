@@ -751,3 +751,18 @@ body
 {
     font-weight: bold;
 }
+
+/*Footer*/
+.footer {
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    overflow: auto;
+}
+
+.footer-content {
+    width: 85%;
+    padding-top: 2%;
+}
+
