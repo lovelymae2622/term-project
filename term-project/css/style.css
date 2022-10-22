@@ -782,3 +782,29 @@ body
     color: white;
     font-size: large;
 }
+
+.socials 
+{
+    width: 40%;
+    float: left;
+    padding-left: 13%;
+}
+
+.socials ul 
+{
+    color: white;
+}
+
+.socials li 
+{
+    display: inline-block;
+    text-decoration: underline;
+    color: white;
+}
+
+.socials a 
+{
+    color: white;
+    font-weight: normal;
+    font-size: small;
+}
