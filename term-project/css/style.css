@@ -1,126 +1,40 @@
-/*Header1 & Navigation Bar*/
-.nav
+/*Ttle & Navigation Bar*/
+* 
 {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    color: #312a26;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+{
+    font-family: 'Oswald', sans-serif;
+}
+
+p,
+label,
+span,
+a 
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover 
+{
+    color: #c7a17a;
+}
+
+body 
+{
     width: 100%;
-    margin: auto;
-    padding: 35px 0;
-    align-items: center;
-    justify-content: space-between;
 }
 
-.nav-links li
-{
-    list-style: none;
-    display: inline-block;
-}
-
-.nav ul a
-{
-    text-decoration: none;
-    text-transform: uppercase;
-    position: relative;
-    font-size: 1;
-    font-family: sans-serif;
-    font: bold;
-    color: black;
-    margin: 20px;
-}
-
-/*header*/
-.header
-{
-
-}
-
-.image1
-{
-    background-image: url('../images/atf-image.jpg');
-}
-
-.inner-header1 h2
-{
-    padding: 70px;
-    text-transform: uppercase;
-    font-size: 50px;
-    margin-left: 70px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.inner-header1 p
-{
-    margin-top: -50px;
-    margin-left: 140px;
-    font-size: 20px;
-    color: bisque;
-}
-
-.inner-header1 a
-{
-    background-color: black;
-    color: white;
-    padding: 15px 15px;
-    margin-left: 140px;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.inner-header2:hover{}
-
-.header2
-{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.inner-header2
-{
-    background-color: white;
-    width: 630px;
-    margin: 20px;
-    transition: 0.3s;
-}
-
-.inner-header2
-{
-    height: 250px;
-    margin: 20px;
-    background-size: cover;
-    box-shadow: 
-    0 0 0 10px #C19A6B;
-}
-
-.inner-header2 p
-{
-    font-size: 20px;
-    margin-left: 50px;
-    font-weight: 600;
-    color: white;
-    font-family: tahoma;
-    text-transform: uppercase;
-}
-
-.inner-header2 a
-{
-    margin-top: 40px;
-    color: white;
-    padding: 15px 15px;
-    margin-left: 40px;
-    font-size: 18px;
-    text-decoration: none;
-    background-color: black;
-}
-
-.image2
-{
-    background-image: url('../images/merchandise1.jpg');
-}
-
-.image3
-{
-    background-image: url('../images/merchandise2.jpg');
-}
+/*Banner*/
