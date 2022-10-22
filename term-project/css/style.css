@@ -753,7 +753,8 @@ body
 }
 
 /*Footer*/
-.footer {
+.footer 
+{
     color: white;
     background-color: black;
     height: 100px;
@@ -761,8 +762,23 @@ body
     overflow: auto;
 }
 
-.footer-content {
+.footer-content 
+{
     width: 85%;
     padding-top: 2%;
 }
 
+.blog 
+{
+    width: 28.33%;
+    background-position: center;
+    margin-left: 7%;
+    margin-right: auto;
+    float: left;
+}
+
+.blog h1 
+{
+    color: white;
+    font-size: large;
+}
