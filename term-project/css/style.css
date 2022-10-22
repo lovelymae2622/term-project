@@ -630,3 +630,54 @@ body
     color: #c7a17a;
     text-decoration: none;
 }
+
+.opening 
+{
+    float: left;
+    width: 21.5%;
+    margin-left: 7%;
+    padding-top: 2%;
+    line-height: normal;
+    color: white;
+}
+
+.opening h2 
+{
+    text-transform: uppercase;
+}
+
+.opening th 
+{
+    text-align: center;
+    color: white;
+}
+
+.opening td, .opening tbody 
+{
+    color: white;
+}
+
+.latest 
+{
+    float: left;
+    padding-top: 2%;
+    width: 21.5%;
+    margin: auto;
+    color: white;
+}
+
+.latest h2 
+{
+    padding-top: 3%;
+    text-transform: uppercase;
+}
+
+.latest h4 
+{
+    text-transform: uppercase;
+}
+
+.latest p 
+{
+    color: #c7a17a;
+}
