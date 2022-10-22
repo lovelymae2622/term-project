@@ -447,3 +447,84 @@ body
 {
     background-image: url(../images/merchandise6.jpg);
 }
+
+/*Reservation Form*/
+.reservation 
+{
+    color: #312a26;
+    width: 85%;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reservation-area h2 
+{
+    text-align: center;
+    font-size: 38px;
+    padding-top: 8px;
+    color: #312a26;
+    text-transform: uppercase;
+}
+
+.reservation-area hr 
+{
+    color: #c7a17a;
+    width: 10%;
+    border-top: solid 3.5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5%;
+}
+
+.reservation-box {
+    overflow: auto;
+    margin-bottom: 0%;
+}
+.reservation-box label,
+.reservation-box input, 
+.reservation-box textarea,
+.reservation-box select {
+    display: block;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.reservation-box input,
+.reservation-box textarea,
+.reservation-box select {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/* Res-Box 1 */
+.res-box1, .res-box2 
+{
+    width: 49.5%;
+    float: left;
+    background-color: #f2f2f2;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.res-box1 
+{
+    margin-right: 1%;
+}
+
+.res-box1 label 
+{
+    font-weight: bold;
+    font-size: small;
+}
+
+.res-text 
+{
+    line-height: 10px;
+    padding: 10px;
+}
+
+.res-box1 input 
+{
+    font-size: 10px;
+}
