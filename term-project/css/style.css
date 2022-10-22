@@ -37,4 +37,39 @@ body
     width: 100%;
 }
 
+.nav
+{
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav h1 
+{
+    width: 50%;
+    float: left;
+    font-size: 25px;
+}
+
+.nav ul 
+{
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-top: 8px;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.nav li 
+{
+    display: inline-block;
+}
+
+.nav a 
+{
+    text-decoration: none;
+}
+
 /*Banner*/
