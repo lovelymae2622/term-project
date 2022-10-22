@@ -726,3 +726,28 @@ body
     background-color: #c7a17a;
     border: none;
 }
+
+.location 
+{
+    float: right;
+    padding-top: 2%;
+    width: 21.5%;
+    margin-right: 7%;
+}
+
+.location h2 
+{
+    text-transform: uppercase;
+    padding-top: 3%;
+}
+
+.location h3 
+{
+    color: #c7a17a;
+    padding-top: 5%;
+}
+
+.location p 
+{
+    font-weight: bold;
+}
