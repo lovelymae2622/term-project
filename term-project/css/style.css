@@ -666,7 +666,7 @@ body
     color: white;
 }
 
-.latest h2 
+.latest h
 {
     padding-top: 3%;
     text-transform: uppercase;
@@ -689,7 +689,7 @@ body
     width: 21.5%;
 }
 
-.contact h2 
+.contact h4 
 {
     text-transform: uppercase;
     padding-top: 3%;
@@ -741,7 +741,7 @@ body
     padding-top: 3%;
 }
 
-.location h3 
+.location h4
 {
     color: #c7a17a;
     padding-top: 5%;
