@@ -808,3 +808,14 @@ body
     font-weight: normal;
     font-size: small;
 }
+
+.copyright 
+{
+    float: right;
+    font-size: small;
+}
+
+.copyright p 
+{
+    color: white;
+}
